@@ -1,37 +1,37 @@
 # alura-march-2026
-Slides and Labs for the workshop at Alura/Fiap
+Slides e Labs para o workshop na Alura/Fiap
 
 ## Labs
 
-### Lab 1 — Regression and Classification
-Introduction to supervised learning through linear and polynomial regression. Covers fitting models of varying complexity (degrees 1–4), visualizing predictions, and understanding the bias-variance tradeoff (overfitting vs. underfitting).
+### Lab 1 — Regressão e Classificação
+Introdução ao aprendizado supervisionado por meio de regressão linear e polinomial. Aborda o ajuste de modelos com diferentes graus de complexidade (graus 1–4), a visualização de predições e a compreensão do trade-off viés-variância (overfitting vs. underfitting).
 
-**Key tools:** NumPy, Matplotlib, Scikit-learn (`LinearRegression`, `PolynomialFeatures`)
-
----
-
-### Lab 2 — Clustering and the Curse of Dimensionality
-Unsupervised learning with clustering algorithms. Implements K-Means from scratch with step-by-step animation, uses the elbow method to choose the number of clusters, and compares K-Means with DBSCAN on non-spherical data. Also explores how high-dimensional spaces break distance-based intuitions.
-
-**Key tools:** NumPy, Matplotlib, Scikit-learn (`KMeans`, `DBSCAN`, `make_blobs`, `make_moons`)
+**Ferramentas principais:** NumPy, Matplotlib, Scikit-learn (`LinearRegression`, `PolynomialFeatures`)
 
 ---
 
-### Lab 3 — Anomaly Detection and Imbalanced Classification
-Covers anomaly detection with Isolation Forest and the challenges of building classifiers on imbalanced datasets (MNIST digit recognition). Introduces precision, recall, and F1-score as alternatives to accuracy, and demonstrates a semi-supervised learning approach using K-Means with label propagation to recover lost labels.
+### Lab 2 — Clustering e a Maldição da Dimensionalidade
+Aprendizado não supervisionado com algoritmos de agrupamento. Implementa o K-Means do zero com animação passo a passo, utiliza o método do cotovelo para escolher o número de clusters e compara K-Means com DBSCAN em dados de formato não esférico. Também explora como espaços de alta dimensão quebram as intuições baseadas em distância.
 
-**Key tools:** Scikit-learn (`IsolationForest`, `SGDClassifier`, `KMeans`, `MLPClassifier`, `fetch_openml`)
-
----
-
-### Lab 4 — Sentiment Analysis with Classical NLP and LLMs
-Text sentiment classification pipeline comparing traditional ML with modern LLMs. Preprocesses text with NLTK (tokenization, stopword removal, lemmatization), builds bag-of-words features, tunes SVM and Random Forest classifiers (~57% accuracy), then contrasts with GPT-4o-mini via few-shot prompting (100% accuracy). Highlights where LLMs outperform classical approaches on small datasets.
-
-**Key tools:** NLTK, Scikit-learn (`CountVectorizer`, `SVC`, `RandomForestClassifier`, `GridSearchCV`), OpenAI API (GPT-4o-mini), t-SNE
+**Ferramentas principais:** NumPy, Matplotlib, Scikit-learn (`KMeans`, `DBSCAN`, `make_blobs`, `make_moons`)
 
 ---
 
-## References
+### Lab 3 — Detecção de Anomalias e Classificação com Dados Desbalanceados
+Aborda detecção de anomalias com Isolation Forest e os desafios de construir classificadores em conjuntos desbalanceados (reconhecimento de dígitos MNIST). Apresenta precisão, recall e F1-score como alternativas à acurácia, e demonstra uma abordagem de aprendizado semi-supervisionado com K-Means e propagação de rótulos para recuperar labels perdidos.
+
+**Ferramentas principais:** Scikit-learn (`IsolationForest`, `SGDClassifier`, `KMeans`, `MLPClassifier`, `fetch_openml`)
+
+---
+
+### Lab 4 — Análise de Sentimentos com NLP Clássico e LLMs
+Pipeline de classificação de sentimentos em texto comparando ML tradicional com LLMs modernos. Pré-processa textos com NLTK (tokenização, remoção de stopwords, lematização), constrói features bag-of-words, ajusta classificadores SVM e Random Forest (~57% de acurácia) e contrasta com GPT-4o-mini via few-shot prompting (100% de acurácia). Destaca onde LLMs superam abordagens clássicas em conjuntos de dados pequenos.
+
+**Ferramentas principais:** NLTK, Scikit-learn (`CountVectorizer`, `SVC`, `RandomForestClassifier`, `GridSearchCV`), OpenAI API (GPT-4o-mini), t-SNE
+
+---
+
+## Referências
 
 - The Royal Swedish Academy of Sciences. *[They used physics to find patterns in information](https://www.nobelprize.org/uploads/2024/11/popular-physicsprize2024-3.pdf)*. Nobel Prize Popular Science Background, 2024.
 - Géron, Aurélien. *Mãos à Obra: Aprendizado de Máquina com Scikit-Learn, Keras & TensorFlow* — 3ª Edição: Conceitos, Ferramentas e Técnicas Para a Construção de Sistemas Inteligentes. O'Reilly / Alta Books.
