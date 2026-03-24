@@ -4,6 +4,9 @@ Slides e Labs para o workshop na Alura/Fiap
 ## Labs
 
 ### Lab 1 — Regressão e Classificação
+
+![Regressão Linear](images/linear_regression.gif)
+
 Introdução ao aprendizado supervisionado por meio de regressão linear e polinomial. Aborda o ajuste de modelos com diferentes graus de complexidade (graus 1–4), a visualização de predições e a compreensão do trade-off viés-variância (overfitting vs. underfitting).
 
 **Ferramentas principais:** NumPy, Matplotlib, Scikit-learn (`LinearRegression`, `PolynomialFeatures`)
