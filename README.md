@@ -3,8 +3,6 @@ Slides e Labs para o workshop na Alura/Fiap
 
 ## Labs
 
-
-KEY = sk-proj-caEDskYT3JMqsHSe3tAsHaGzbQTzItpJIs7qq5S5FJD7aooPFdggWx40aniRz5MNLLtBXNGPReT3BlbkFJz0H4qi6CxIifrZszXLM9wk-RzZpf_clamAQ28NBe7yqBtAtBX8A3jjdj-UCOgCc-
 ### Lab 1 — Regressão e Classificação
 
 ![Regressão Linear](images/linear_regression.gif)
