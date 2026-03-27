@@ -1,6 +1,15 @@
 # alura-march-2026
 Slides e Labs para o workshop na Alura/Fiap
 
+## Slides
+
+**Slides de Apresentação**
+[IA Generativa & Machine Learning](https://docs.google.com/presentation/d/16ATmSBbbNX9b8dTgbigggZp9w7CB5FhE_-q2pi_EN0o/edit?usp=sharing)
+
+**Slides base para o workshop**
+
+[IA Generativa & Machine Learning - material base para o workshop](https://docs.google.com/presentation/d/1RPuYsFta5B-I_dZQHfPOBTjqd3afZnUP_3CLGDb_iWo/edit?usp=sharing)
+
 ## Labs
 
 ### Lab 1 — Regressão e Classificação
